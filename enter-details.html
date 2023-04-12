@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Enter Student Details</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link href="assets/img/logo.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="https://www.igdtuw.ac.in/" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.jpg" alt="">
+        <span class="d-flex d-lg-block">IGDTUW</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div>
+    
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li>      
+
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="assets/img/profile-img2.jpg" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">Dr. T. Gupta</span>
+          </a>
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <h6>Dr. Tanisha Gupta</h6>
+              <span>Professor</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="profile.html">
+                <i class="bi bi-person"></i>
+                <span>My Profile</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="view-details.html">
+                <i class="bi bi-person"></i>
+                <span>View Student Details</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="login.html">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul>
+        </li>
+
+      </ul>
+    </nav>
+
+  </header>
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Multimedia Technologies</h1>
+    </div>
+
+    <section class="section">
+      <div class="row">
+        <div class="col-lg-10">
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Student Details</h5>
+              <form>
+                <div class="row mb-3">
+                  <label class="col-sm-2 col-form-label">Enter Student Details</label>
+                  <div class="col-sm-10">
+                    <div class="form-floating mb-3">
+                      <input type="number" class="form-control" id="floatingInput" placeholder="name@example.com">
+                      <label for="floatingInput">Enrollment Number</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <input type="inputText" class="form-control" id="floatingInput" placeholder="name@example.com">
+                      <label for="floatingInput">First Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <input type="inputText" class="form-control" id="floatingInput" placeholder="name@example.com">
+                      <label for="floatingInput">Last Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                      <label for="floatingInput">Email address</label>
+                    </div>                                                            
+                  </div>
+              </div>
+              <div class="row mb-3">
+                <label for="inputDate" class="col-sm-2 col-form-label">Date of Birth</label>
+                <div class="col-sm-10">
+                  <input type="date" class="form-control">
+                </div>
+              </div>  
+              <h5 class="card-title">Academic Details</h5>
+                <div class="row mb-3">
+                  <label class="col-sm-2 col-form-label">Semester</label>
+                  <div class="col-sm-10">
+                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                      <option selected>One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                      <option value="4">Four</option>
+                      <option value="5">Five</option>
+                      <option value="6">Six</option>
+                      <option value="7">Seven</option>
+                      <option value="8">Eight</option>
+                    </select>
+                  </div>
+                </div>
+                <fieldset class="row mb-3">
+                  <legend class="col-form-label col-sm-2 pt-0">Component</legend>
+                  <div class="col-sm-10">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                      <label class="form-check-label" for="gridRadios1">
+                        Mid Term Assesment
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                      <label class="form-check-label" for="gridRadios2">
+                        End Term Assesment
+                      </label>
+                    </div>
+                    <div class="form-check disabled">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios" value="option">
+                      <label class="form-check-label" for="gridRadios3">
+                        Continuous Evaluation 
+                      </label>
+                    </div>
+                  </div>
+                </fieldset>
+                <div class="row mb-3">
+                  <legend class="col-form-label col-sm-2 pt-0">Attendance</legend>
+                  <div class="col-sm-10">
+                    
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck1">
+                      <label class="form-check-label" for="gridCheck1">
+                        Above 75%
+                      </label>
+                    </div>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck2" checked>
+                      <label class="form-check-label" for="gridCheck2">
+                        Medical Compensation
+                      </label>
+                    </div>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck2" checked>
+                      <label class="form-check-label" for="gridCheck2">
+                        Below 75%
+                      </label>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="typeNumber" class="col-sm-2 col-form-label">Marks</label>
+                  <div class="col-sm-3">
+                    <input type="number" class="form-control">
+                  </div>
+                </div>    
+                <div class="row mb-3">
+                  <label for="typeNumber" class="col-sm-2 col-form-label">Out of</label>
+                  <div class="col-sm-3">
+                    <input type="number" class="form-control">
+                  </div>
+                </div>                
+                <div class="row mb-3">
+                  <label for="inputNumber" class="col-sm-2 col-form-label">Upload Marksheet</label>
+                  <div class="col-sm-10">
+                    <input class="form-control" type="file" id="formFile">
+                  </div>
+                </div>
+                              
+                <div class="row mb-3">
+                  <label for="inputPassword" class="col-sm-2 col-form-label">Additional Comments</label>
+                  <div class="col-sm-10">
+                    <textarea class="form-control" style="height: 100px"></textarea>
+                  </div>
+                </div>
+                                                
+                <div class="row mb-3">
+                  <label class="col-sm-2 col-form-label"></label>
+                  <div class="col-sm-10">
+                    <button type="submit" class="btn btn-success">Submit Form</button>
+                  </div>
+                </div>
+
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
